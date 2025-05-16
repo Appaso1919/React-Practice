@@ -7,6 +7,7 @@ import ChildComponent from './Hooks/UseContext'
 import First from './class_component/first'
 import Array_loop from './Loop_in_React_with_array/array_loop'
 import Nested_loop_array from './Loop_in_React_with_array/nested_loop_array'
+import Simple_props from './Props/simple_props'
 
 function App() {
   
@@ -27,6 +28,9 @@ function App() {
       <Array_loop/>
       <h3>Nested loop using array</h3>
       <Nested_loop_array/>
+      <h1>Props in React</h1>
+      <Simple_props name="Appaso"/>
+      <Simple_props name="Ajay"/>
     </div>
   )
 }
