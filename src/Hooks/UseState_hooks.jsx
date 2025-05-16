@@ -8,10 +8,10 @@ function Favorite_color(){
             <h3>My favorite color is {color}</h3>
             <button style={{backgroundColor:"blue",
                 
-            }} onClick={()=>setColor("blue")}>Blue</button><br/><br/>
-            <button style={{backgroundColor:"Red"}} onClick={()=>setColor("red")}>Red</button><br/><br/>
+            }} onClick={()=>setColor("blue")}>Blue</button>
+            <button style={{backgroundColor:"Red"}} onClick={()=>setColor("red")}>Red</button>
             <button style={{backgroundColor:"orange",padding:"10px"
-            }} onClick={()=>setColor("orange")}>Orange</button><br/><br/>
+            }} onClick={()=>setColor("orange")}>Orange</button>
             <button style={{backgroundColor:"pink"}} onClick={()=>setColor("pink")}>Pink</button>
         </div>
     )
