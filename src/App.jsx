@@ -1,7 +1,7 @@
 import './App.css'
 import Home from './import_export_component/home'
-import Timer from './UseEffect_hooks'
-import Favorite_color from './UseState_hooks'
+import Timer from './Hooks/UseEffect_hooks'
+import Favorite_color from './Hooks/UseState_hooks'
 
 function App() {
   
