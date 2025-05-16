@@ -4,6 +4,7 @@ import Timer from './Hooks/UseEffect_hooks'
 import Favorite_color from './Hooks/UseState_hooks'
 import ThemeProvider, { User } from './Hooks/UseContext'
 import ChildComponent from './Hooks/UseContext'
+import First from './class_component/first'
 
 function App() {
   
@@ -16,8 +17,10 @@ function App() {
       <Timer />
       <h3>Hooks in useContext</h3>
       <User />
-      <h1>Import export componet</h1>
+      <h1>Import export componet and Function Component</h1>
       <Home />
+      <h1>Class Component</h1>
+      <First />
     </div>
   )
 }
