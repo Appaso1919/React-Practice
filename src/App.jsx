@@ -5,6 +5,8 @@ import Favorite_color from './Hooks/UseState_hooks'
 import ThemeProvider, { User } from './Hooks/UseContext'
 import ChildComponent from './Hooks/UseContext'
 import First from './class_component/first'
+import Array_loop from './Loop_in_React_with_array/array_loop'
+import Nested_loop_array from './Loop_in_React_with_array/nested_loop_array'
 
 function App() {
   
@@ -21,6 +23,10 @@ function App() {
       <Home />
       <h1>Class Component</h1>
       <First />
+      <h1>Loops in React using Array</h1>
+      <Array_loop/>
+      <h3>Nested loop using array</h3>
+      <Nested_loop_array/>
     </div>
   )
 }
