@@ -8,6 +8,7 @@ import First from './class_component/first'
 import Array_loop from './Loop_in_React_with_array/array_loop'
 import Nested_loop_array from './Loop_in_React_with_array/nested_loop_array'
 import Simple_props from './Props/simple_props'
+import Click_event from './Event_handling/Click_event-basic'
 
 function App() {
   
@@ -31,6 +32,8 @@ function App() {
       <h1>Props in React</h1>
       <Simple_props name="Appaso"/>
       <Simple_props name="Ajay"/>
+      <h1>Event Handling</h1>
+      <Click_event />
     </div>
   )
 }
