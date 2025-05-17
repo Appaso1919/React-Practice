@@ -2,13 +2,12 @@ import './App.css'
 import Home from './import_export_component/home'
 import Timer from './Hooks/UseEffect_hooks'
 import Favorite_color from './Hooks/UseState_hooks'
-import ThemeProvider, { User } from './Hooks/UseContext'
-import ChildComponent from './Hooks/UseContext'
 import First from './class_component/first'
 import Array_loop from './Loop_in_React_with_array/array_loop'
 import Nested_loop_array from './Loop_in_React_with_array/nested_loop_array'
 import Simple_props from './Props/simple_props'
 import Click_event from './Event_handling/Click_event-basic'
+import UserList from './List_Key/User_list'
 
 function App() {
   
@@ -34,6 +33,8 @@ function App() {
       <Simple_props name="Ajay"/>
       <h1>Event Handling</h1>
       <Click_event />
+      <h1>List and key</h1>
+      <UserList/>
     </div>
   )
 }
