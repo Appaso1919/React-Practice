@@ -29,6 +29,7 @@ function Main1() {
             <h1>Props in React</h1>
             <Simple_props name="Appaso" />
             <Simple_props name="Ajay" />
+            <Simple_props name="prithm" />
             <h1>Event Handling</h1>
             <Click_event />
             <h1>List and key</h1>
