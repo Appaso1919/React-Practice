@@ -7,6 +7,9 @@ import Nested_loop_array from './Loop_in_React_with_array/nested_loop_array'
 import Simple_props from './Props/simple_props'
 import Click_event from './Event_handling/Click_button'
 import UserList from './Lise_Key/User_list'
+import ChildComponent, { User } from './Hooks/UseContext'
+import UseRef from './Hooks/UseRef'
+import UseCallback from './Hooks/UseCallback'
 function Main1() {
     return (
         <>
@@ -18,6 +21,10 @@ function Main1() {
             <Timer />
             <h3>Hooks in useContext</h3>
             <User />
+            <h3>Hooks in useRef</h3>
+            <UseRef/>
+            <h3>Hooks in useCallback</h3>
+            <UseCallback/>
             <h1>Import export componet and Function Component</h1>
             <Home />
             <h1>Class Component</h1>

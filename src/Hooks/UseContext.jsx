@@ -4,9 +4,8 @@ import React, { createContext, useContext } from 'react';
 const UserContext = createContext();
 
 function ChildComponent() {
-  // Step 3: Use the context value
   const user = useContext(UserContext);
-  return <h2>Hello, {user}!</h2>;
+  return <h2>Hello, {user}</h2>;
 }
 
 export function User(){
