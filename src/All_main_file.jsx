@@ -10,6 +10,7 @@ import UserList from './Lise_Key/User_list'
 import ChildComponent, { User } from './Hooks/UseContext'
 import UseRef from './Hooks/UseRef'
 import UseCallback from './Hooks/UseCallback'
+import Simple_example from './Fragment/simple_example'
 function Main1() {
     return (
         <>
@@ -41,6 +42,8 @@ function Main1() {
             <Click_event />
             <h1>List and key</h1>
             <UserList />
+            <h1>Fragment</h1>
+            <Simple_example/>
         </div>
         </>
     )
