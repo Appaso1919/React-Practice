@@ -5,7 +5,7 @@ import { SubjectContext } from "./ContextData";
 function Main_context(){
     const [subject,setSubject]=useState('English');
     return(
-        <div style={{ backgroundColor: "yellow", padding: 10 }}>
+        <div style={{ backgroundColor: "lightgrey", padding: 10 }}>
            <SubjectContext.Provider value={subject}>
             <select onChange={(event)=>setSubject(event.target.value)}>
                 <option value="">Select Option</option>
