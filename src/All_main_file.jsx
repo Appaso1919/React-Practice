@@ -11,6 +11,7 @@ import ChildComponent, { User } from './Hooks/UseContext'
 import UseRef from './Hooks/UseRef'
 import UseCallback from './Hooks/UseCallback'
 import Simple_example from './Fragment/simple_example'
+import Main_custom from './Custom_Hook/main_custom'
 function Main1() {
     return (
         <>
@@ -44,6 +45,8 @@ function Main1() {
             <UserList />
             <h1>Fragment</h1>
             <Simple_example/>
+            <h1>Custom Hook </h1>
+            <Main_custom />
         </div>
         </>
     )
